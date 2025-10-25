@@ -5,6 +5,12 @@ The work includes:
 - Pressing the spacebar "sucks" words into a vortex, remixing and blurring them like a dream;
 - Speaking into the microphone creates new particle ripples, harmoniously interweaving with the background music.
 - When you start playing, the system automatically displays several letters representing the title of my album, "Slow Heat."
+- Development and testing environment for this project:
+System: macOS 14.6.1
+Python version: 3.11.9
+Dependent libraries: pygame, numpy, sounddevice
+The current audio file is track_small.wav, a compressed version of the original track.
+If you encounter microphone recognition issues on Windows, modify the device_index value in line 10 of mic_input.py to match your recording device.
 
 Background Music
 
