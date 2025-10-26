@@ -32,7 +32,7 @@ class MicInput:
         self.running = True
         self.thread = threading.Thread(target=self._listen, daemon=True)
         self.thread.start()
-        print("🎧 MicInput started on device", self.device_index)
+        print("MicInput started on device", self.device_index)
 
     def _listen(self):
         """Background listening loop"""
@@ -62,7 +62,7 @@ if __name__ == "__main__":
         while True:
             vol = mic.get_volume()
             if mic.is_speaking():
-                print(f"🎤 You are speaking! Volume: {vol:.3f}")
+                print(f" You are speaking! Volume: {vol:.3f}")
             else:
                 print(f"💤 Muted... Volume: {vol:.3f}")
             sd.sleep(300)
