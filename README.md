@@ -88,5 +88,8 @@ Real-time speech recognition and microphone volume response
 Dynamic particle system and ripple generation
 Automatic screenshot saving
 
+![The effect after entering the text you want] (https://raw.githubusercontent.com/Jiayingzong-d/A3_sound/refs/heads/main/shot_20251022_204132.png)
+![The effect it produces when you speak using wired headphones] (https://raw.githubusercontent.com/Jiayingzong-d/A3_sound/refs/heads/main/shot_20251025_191514.png)
+![While playing, you can also click on other areas to generate ripple shapes.] (https://raw.githubusercontent.com/Jiayingzong-d/A3_sound/refs/heads/main/shot_20251025_191537.png)
 
 
